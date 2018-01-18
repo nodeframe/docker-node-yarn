@@ -1,4 +1,4 @@
-FROM node:6.11.1-alpine
+FROM node:8-alpine
 RUN apk update \
   && apk add curl bash binutils tar python \
   && apk add --update alpine-sdk \
